@@ -7,8 +7,6 @@
 
     Notice that you may not slant the container.
 
-    
-
     Example 1:
 
 
