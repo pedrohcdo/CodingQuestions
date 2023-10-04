@@ -33,8 +33,12 @@
 
     1 <= s.length <= 105
     s consists of lowercase English letters.
+
+    ---
+    https://leetcode.com/problems/sum-of-scores-of-built-strings/description/
  */
 
+// O(N) 
 function sumScores(s: string): number {
     let zArray = new Array(s.length).fill(0)
 
