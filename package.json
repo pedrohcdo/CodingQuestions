@@ -1,0 +1,29 @@
+{
+  "name": "codingquestions",
+  "version": "1.0.0",
+  "description": "Solving the main problems of FAANGs and big companies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedrohcdo/CodingQuestions.git"
+  },
+  "keywords": [
+    "condingquestions",
+    "bigcompanies",
+    "faang",
+    "logic",
+    "contests"
+  ],
+  "author": "Pedro H. (_pedrohcd)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pedrohcdo/CodingQuestions/issues"
+  },
+  "homepage": "https://github.com/pedrohcdo/CodingQuestions#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
