@@ -21,6 +21,20 @@
 	---
 	https://www.facebook.com/codingcompetitions/hacker-cup/2023/practice-round/problems/A2
  */
+
+// O(1) :)
+function cheeseburguer2(a: number, b: number, c: number) {
+	//
+	return Math.max(
+		0,
+		Math.floor(c / a),
+		Math.floor(c / b) * 2 - 1,
+		1 + Math.floor((c - a) / b) * 2,
+		2 + Math.floor((c - 2 * a) / b) * 2
+	)
+}
+
+// O(LogN)
 function cheeseburguer(a: number, b: number, c: number) {
 	let l = 0
 	let r = Math.floor(c / a)
