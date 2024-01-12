@@ -33,6 +33,20 @@
     ---
     https://leetcode.com/problems/two-sum/
  */
+
+// I had uploaded both solutions but somehow the optimal solution didn't come up.
+function twoSum(numbers: number[], target: number): number[] {
+    const map = new Map()
+    for (let i = 0; i < numbers.length; i++) {
+        const diff = target - numbers[i]
+        if (map.has(diff)) return [map.get(diff), i]
+        map.set(numbers[i], i)
+    }
+    return [-1, -1]
+};
+
+
+//
 function twoSum(nums: number[], target: number): number[] {
 
     for (let i = 0; i < nums.length; i++) {
